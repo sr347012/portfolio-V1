@@ -100,6 +100,7 @@ nav{
     margin: 20px;
     padding: 10px;
     font-weight: 400;
+    border-radius: 10px;
 }
 
 .personal {
@@ -145,6 +146,11 @@ nav{
     padding: 10px;
 } 
 
+#canvas1 {
+    /* width: 100%; */
+    /* height: 70vh; */
+    background: #141414;
+}
 .footer-icons {
     background-color: rgba(0,0,0,0.3);
     /* opacity: 0.1; */
