@@ -149,7 +149,29 @@ nav{
 #canvas1 {
     /* width: 100%; */
     /* height: 70vh; */
-    background: #141414;
+    background: #002525;
+    
+}
+
+.ctx1-btn-hrz {
+    z-index: 1;
+    position: absolute;
+    right:0px;
+    top: 1400px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.ctx1-btn-vrt {
+    z-index: 1;
+    position: absolute;
+    right:0px;
+    top: 1450px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
 }
 .footer-icons {
     background-color: rgba(0,0,0,0.3);
