@@ -1,0 +1,165 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    font-size: 22px;
+}
+.dev-intro img {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 30%);
+    z-index: 5;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.dev-intro {
+    display: flex;
+    margin: 4%;
+    padding: 1%;
+    width: 90%;
+    max-height: 400px;
+    align-items: center; 
+     justify-content: center;
+}
+
+.dev-intro p{
+    line-height: 30px;
+    opacity: 0.7;
+}
+/* .dev-intro-main {
+    display: flex;
+    flex-direction: column;
+} */
+
+.dev-intro-text {
+    font-size: 72px;
+}
+.dev-name {
+    margin-top: -40px;
+}
+.front-end {
+    background-color: #16E0BD;
+    color: #1C4B43;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 38px;
+    line-height: 40px;
+    width: 400px;
+    /* display: flex;
+    justify-content: flex-end; */
+}
+
+.technical {
+    background: url(./component.png), #141414;
+    height: 60vh;
+    padding: 10px;
+}
+
+.tech-heading {
+    color: #14CFAE;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    /* margin-top: 40px; */
+}
+.tech-cards {
+    display: flex;
+    color: beige;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.tech-cards p{
+    opacity: 0.5;
+}
+
+.tech-card {
+    width: 200px;
+    margin: 20px;
+}
+.tech-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tech-button button{
+    background-color: #14CFAE;
+    font-size: 14px;
+    margin: 20px;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.personal {
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.personal-image {
+    width: 20%;
+    margin-left: -10px;
+}
+
+.personal-image img {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 30%);
+    z-index: 5;
+}
+
+.personal-para {
+    margin: 50px;
+    width: 40%;
+}
+
+.personal-para .personal-heading{
+    font-size: 30px;
+    margin: 20px;
+    padding: 10px;
+}
+.personal-para .personal-text {
+    opacity: 0.7;
+    margin: 20px;
+    padding: 10px;
+}
+.personal-para .personal-tagline{
+    background-color: #16E0BD;
+    color: #1C4B43;
+    margin: 20px;
+    margin-top: -10px;
+    padding: 10px;
+} 
+
+.footer-icons {
+    background-color: rgba(0,0,0,0.3);
+    /* opacity: 0.1; */
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icons img {
+    background: transparent;
+    color: #14CFAE;
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 50%;
+}
