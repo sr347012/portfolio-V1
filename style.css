@@ -14,7 +14,7 @@ nav{
 .dev-intro img {
     width: 300px;
     height: 300px;
-    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px 1px rgb(0 0 0 / 30%);
     z-index: 5;
     margin-top: 50px;
     margin-right: 50px;
@@ -83,19 +83,26 @@ nav{
 }
 .tech-cards p{
     opacity: 0.5;
-}
-
-.tech-card {
-    width: 200px;
-    margin: 20px;
-}
-.tech-button {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.tech-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    padding: 2rem;
+}
+.tech-button {
+
+}
 .tech-button button{
-    background-color: #14CFAE;
+    background-color: rgb(20, 207, 174, 0.4);
+    border: 1px solid white;
+    color: whitesmoke;
     font-size: 14px;
     margin: 20px;
     padding: 10px;
@@ -103,6 +110,9 @@ nav{
     border-radius: 10px;
 }
 
+.tech-button button:hover{
+    box-shadow: 0px 0px 3px 1px whitesmoke;
+}
 .personal {
     display: flex;
     height: 70vh;
@@ -174,7 +184,7 @@ nav{
     font-size: 16px;
 }
 .footer-icons {
-    background-color: rgba(0,0,0,0.3);
+    margin-top: -250px;
     /* opacity: 0.1; */
     display: flex;
     height: 20vh;
@@ -183,7 +193,7 @@ nav{
 }
 
 .footer-icons img {
-    background: transparent;
+    background: white;
     color: #14CFAE;
     width: 30px;
     height: 30px;
