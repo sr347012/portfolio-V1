@@ -95,8 +95,12 @@ nav{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 1rem;
     width: 250px;
-    padding: 2rem;
+}
+.tech-card-item {
+    height: 40px;
+    margin: 1px;
 }
 .tech-button {
 
