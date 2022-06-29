@@ -2,7 +2,7 @@ const canvas = document.getElementById('canvas1');
 
 const ctx1 = canvas.getContext('2d');
 canvas.width = window.innerWidth;
-canvas.height = '200';
+// canvas.height = '200';
 // console.log(ctx1);
 ctx1.globalAlpha = 1;
 var hrz_btn_clicked = false;

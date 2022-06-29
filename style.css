@@ -4,7 +4,9 @@ body {
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+#header canvas{
+    height: 200px;
+}
 nav{
     position: absolute;
     top: 40px;
@@ -182,6 +184,9 @@ nav{
     padding: 5px;
     border-radius: 5px;
     font-size: 16px;
+}
+#footer canvas{
+    height: 200px;
 }
 .footer-icons {
     margin-top: -150px;
