@@ -1,3 +1,32 @@
+
+      var testDataRelative = [
+        {times: 
+        [{"starting_time": 1230692272000, "ending_time": 1299898672000}]},
+        {times: 
+        [{"starting_time": 1299898672000, "ending_time": 1405133872000}]},
+        {times: 
+        [{"starting_time": 1405133872000, "ending_time": 1459393072000}]},
+        {times: 
+        [{"starting_time": 1459393072000, "ending_time": 1617159472000}]},
+        {times: 
+        [{"starting_time": 1617159472000, "ending_time": 1661914672000}]},
+      ];
+      function timelineRelativeTime() {
+        //This solution is for relative time is from
+        //http://stackoverflow.com/questions/11286872/how-do-i-make-a-custom-axis-formatter-for-hours-minutes-in-d3-js
+        var chart = d3.timelines()
+        .itemHeight(50)
+        .colors( d3.scaleOrdinal().range(['#14CFAE','#11b599','#1C6A5D','#002525','#000000']) )
+          .tickFormat({
+            format: function(d) { return d3.timeFormat("%Y")(d) },
+            tickTime: d3.timeYears,
+            tickInterval: 17,
+            tickSize: 20,
+          });
+          var barwidth = window.innerWidth;
+        var svg = d3.select("#timelineRelativeTime").append("svg").attr("width", barwidth)
+          .datum(testDataRelative).call(chart);
+      }
 const canvas = document.getElementById('canvas1');
 
 const ctx1 = canvas.getContext('2d');
@@ -90,3 +119,9 @@ function animate() {
 }
 
 animate();
+timelineRelativeTime();
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'assets/particles.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
+  

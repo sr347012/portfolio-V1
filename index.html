@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+    <script src="../dist/d3-timelines.js"></script>
     <script src="https://kit.fontawesome.com/d4281b2af3.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+    <script src="http://www.jsdelivr.com/#!particles.js"></script>
 </head>
 <body>
     <header>
@@ -14,6 +19,7 @@
             <div><code>Sriramachandra</code></div>
         </nav>
     </header>
+    
     <section>
         <div class="dev-intro">
             <img src="./PP.jpg" alt="Sriram">
@@ -27,16 +33,47 @@
 
         </div>
     </section>
+    <hr>
+
     <section >
+        <div >
+            <div class="tech-heading">My Career so far</div>
+            <!-- <div class="img-line">
+                <img src="./assets/TCS.png" height="100" width="150" alt="">
+                <img src="./assets/brillio.png" height="100" width="200" alt="">
+                <img src="./assets/CGI.png" height="100" width="100" alt="">
+                <img src="./assets/wipro.png" height="100" width="200" alt="">
+                <img src="./assets/photon.png" height="50" width="120" alt="">
+            </div> -->
+            <div class="legends">
+                <div class="legend-item">
+                    <div class="legend-clr clr-1"></div>
+                    <div class="legend-desc">Tata Consultancy Services</div>    
+                </div>
+                <div class="legend-item">
+                    <div class="legend-clr clr-2"></div>
+                    <div class="legend-desc">Brillio</div>    
+                </div>
+                <div class="legend-item">
+                    <div class="legend-clr clr-3"></div>
+                    <div class="legend-desc">CGI</div>    
+                </div>
+                <div class="legend-item">
+                    <div class="legend-clr clr-4"></div>
+                    <div class="legend-desc">Wipro</div>    
+                </div>
+                <div class="legend-item">
+                    <div class="legend-clr clr-5"></div>
+                    <div class="legend-desc">Photon</div>    
+                </div>
+            </div>
+            <div id="timelineRelativeTime">
+            </div>
+        </div>
+        <div></div>
         <div class="technical">
             <div class="tech-heading">What I Do?</div>
             <div class="tech-cards">
-                <div class="tech-card">
-                    <strong class="tech-card-item"> Game Development</strong>
-                    <p class="tech-card-item">I do game development. 2D games based on javascript</p>
-                    <div class="tech-button"><a href="https://github.com/sr347012/"> 
-                        <button>Explore</button></a></div>
-                </div>
                 <div class="tech-card">
                     <strong class="tech-card-item"> Hackathons</strong>
                     <p class="tech-card-item">I participate in Hackathons. </p>
@@ -56,6 +93,13 @@
                     <div class="tech-button"><a href="https://sr347012.github.io/my-videos/"> 
                         <button>Explore</button></a></div>
                 </div>
+                <div class="tech-card">
+                    <strong class="tech-card-item"> Game Development</strong>
+                    <p class="tech-card-item">I do game development. 2D games based on javascript</p>
+                    <div class="tech-button"><a href="https://github.com/sr347012/"> 
+                        <button>Explore</button></a></div>
+                </div>
+
             </div>
 
         </div>
@@ -76,10 +120,6 @@
     </section>
     <section id="footer">
         <canvas id="canvas1"></canvas>
-        <!-- <button class="ctx1-btn-hrz" id="ctx1-btn-hrz"
-        onclick="horizontal()">Horizontal</button>
-        <button class="ctx1-btn-vrt" id="ctx1-btn-vrt"
-        onclick="vertical()">Vertical</button> -->
         <div class="footer-icons">            
             <a href="https://www.youtube.com/channel/UCJnQ77FsLDZmQtnZyxU8IYA"><img src="./youtube-brands.svg" alt=""></a>
             <a href="https://github.com/sr347012/"><img src="./github-brands.svg" alt=""></a>
@@ -87,13 +127,6 @@
             <a href="https://twitter.com/Sriram2387"><img src="./twitter-brands.svg" alt=""></a>            
         </div>
     </section>
-    <!-- <footer>
-        <div class="footer-icons">
-            <a href="https://github.com/sr347012/"><img src="./github-brands.svg" alt=""></a>
-            <a href="https://www.instagram.com/shafia_sriram/">  <img src="./instagram-brands.svg" alt=""></a>
-            <a href="https://twitter.com/Sriram2387"><img src="./twitter-brands.svg" alt=""></a>            
-        </div>
-    </footer> -->
     <script src="./script.js"></script>
 </body>
 </html>

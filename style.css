@@ -1,3 +1,19 @@
+.clr-1 {
+    background-color: #14CFAE;
+}
+.clr-2 {
+    background-color: #11b599;
+}
+.clr-3 {
+    background-color: #1C6A5D;
+}
+.clr-4 {
+    background-color: #002525;
+}
+.clr-5 {
+    background-color: #000000;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -128,7 +144,7 @@ nav{
 }
 
 .personal-image {
-    width: 20%;
+    width: 30%;
     margin-left: -10px;
 }
 
@@ -141,7 +157,7 @@ nav{
 
 .personal-para {
     margin: 50px;
-    width: 40%;
+    width: 60%;
 }
 
 .personal-para .personal-heading{
@@ -209,4 +225,77 @@ nav{
     margin: 20px;
     padding: 5px;
     border-radius: 50%;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.timeline-label {
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.TCS {
+    height: 500;
+}
+#timeline1 {
+    width: 100%;
+}
+#timeline2 .axis {
+  transform: translate(0px,40px);
+  -ms-transform: translate(0px,40px); /* IE 9 */
+  -webkit-transform: translate(0px,40px); /* Safari and Chrome */
+  -o-transform: translate(0px,40px); /* Opera */
+  -moz-transform: translate(0px,40px); /* Firefox */
+}
+
+.coloredDiv {
+  height:20px; width:20px; float:left;
+}
+
+#timelineRelativeTime {
+    width: 100%;
+}
+
+.tech-part {
+    width: 100%;
+    background: #1C4B43;
+    height: 50vh;
+}
+.img-line {
+    display: flex;
+    margin-left: 50px;
+}
+.img-line img{
+    margin: 10px;
+    padding: 10px;
+}
+.legends {
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+.legend-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* width: 200px; */
+}
+.legend-clr{
+    width: 10px;
+    height: 10px;
+    border: 0.5px solid;
+    margin: 5px;
+}
+.legend-desc {
+    margin: 2px;
 }
